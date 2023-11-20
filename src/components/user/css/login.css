@@ -1,0 +1,87 @@
+/* Professional CSS for styling the login form */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: #2196F3; 
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-button:hover {
+  background-color: #0b7dda; 
+}
+
+.forgot-password {
+  text-align: right; /* Align to the right */
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.forgot-password span {
+  color: #555;
+  text-decoration: underline; /* Underline by default */
+  cursor: pointer; /* Set cursor to pointer */
+}
+
+.forgot-password span:hover {
+  color: #333; /* Change color on hover */
+  text-decoration: underline;
+}
+
+.create-account {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.create-account span {
+  color: #555;
+  text-decoration: underline; /* Underline by default */
+  cursor: pointer; /* Set cursor to pointer */
+}
+
+.create-account span:hover {
+  color: #333; /* Change color on hover */
+  text-decoration: underline;
+}
